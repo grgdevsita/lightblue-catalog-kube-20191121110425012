@@ -13,5 +13,6 @@ public class Application {
         appl.addInitializers(new VcapProcessor());
         ApplicationContext ctx = appl.run(args);
         System.out.println("Catalog microservice is ready for business...");
+        System.out.println("TEST COMMIT TO .. RESTART BUILD");
     }
 }
